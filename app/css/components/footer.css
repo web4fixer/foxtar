@@ -1,0 +1,98 @@
+.footer {
+	padding: 115px 0 75px 0;
+	background: #263238;
+	color: #fff;
+}
+.footer__content a:hover {
+	color: #fff;
+}
+.footer__subtitle {
+	position: relative;
+	padding-bottom: 22px;
+	margin-bottom: 38px;
+}
+.footer__subtitle:after {
+	content: "";
+	width: 50px;
+	height: 3px;
+	background: #8bc34a;
+	position: absolute;
+	bottom: 0;
+	left: 0px;	
+}
+.footer__text {
+	color: #b7c3c8;
+	font-size: 15px;
+	margin-bottom: 35px;
+}
+.footer__address {
+	margin-left: 35px;
+	position: relative;
+}
+.footer__address:before {
+	content: url(../../img/geo.png);
+	position: absolute;
+	top: 3px;
+	left: -34px;
+}
+.footer__phone {
+	position: relative;
+	margin-left: 35px;
+	color: #fff;
+}
+.footer__phone:before {
+	content: url(../../img/phone.png);
+	position: absolute;
+	top: 3px;
+	left: -34px;
+}
+.footer__content a {
+	text-decoration: none;
+	color: #b7c3c8;
+}
+.footer__content ul {
+	padding-left: 14px;
+	line-height: 36px;
+	list-style-image: url(../../img/arrow.png);
+}
+.footer-social {
+	margin-bottom: 40px;
+}
+.footer-social a {
+	display: inline-block;
+	margin-right: 4px;
+}
+.footer-social a:hover {
+	filter: saturate(3);
+}
+.footer__signup-title {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.footer__input-custom {
+	background: #2f3c43;
+	border-radius: 0;
+	border: none;
+	box-shadow: inset 1px 1px 0px #000;
+	outline: none;
+	max-width: 220px;
+}
+.footer__input-custom:active {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    border: none;
+}
+.footer__btn-custom {
+	background: #8bc34a;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: inset 0px 1px 0px #000;
+}
+@media (max-width: 992px) {
+	.footer__card {
+	margin-bottom: 20px;
+	}
+}

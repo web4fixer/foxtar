@@ -1,0 +1,20 @@
+.aside h4 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #263238;
+}
+
+.aside-section {
+	max-width: 270px;
+	border: 1px solid #dcdcdc;
+	padding: 30px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+.aside-info {
+	border-top: 1px solid #dcdcdc;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}

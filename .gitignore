@@ -1,0 +1,9 @@
+node_modules/*
+app/css/all.css
+package-lock.json
+
+app/js/all.js
+
+app/js/build/*
+
+dist/
