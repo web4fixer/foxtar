@@ -66,3 +66,13 @@ $(function() {
     }
   });
 });
+
+$(".headline-more-product").click(function() {
+    $('.section-more-product').fadeIn(500);
+})
+
+// modal window 
+$(".login-btn").click(function() {
+    //открыть модальное окно с id="myModal"
+    $("#login-form").modal('show');
+  });
